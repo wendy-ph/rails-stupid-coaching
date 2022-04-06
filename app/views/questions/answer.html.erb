@@ -1,9 +1,18 @@
-<%= params[:question]%>
-<p>- <em>You</em></p>
-<br>
-<%= @answer %>
-<p>- <em>Your coach</em></p>
 
-<br>
+<div class="box">
+  <div class="stripe"></div>
+  <div id="your-question" class="text-margin">
+   <%= params[:question]%>
+    <p>- <em>You</em></p>
+  </div>
+</div>
+
+<div class="box coach-color">
+  <div class="stripe"></div>
+  <div class="text-margin">
+   <%= @answer %>
+   <p>- <em>Your coach</em></p>
+  </div>
+</div>
 
 <%= link_to "Ask another question", ask_path%>

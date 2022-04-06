@@ -1,3 +1,57 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 24px;
+}
+
+#form-description {
+  font-size: 14px;
+}
+
+#question {
+  width: 400px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+#submit {
+  background: #337AB7;
+  color: white;
+  height: 36px;
+  padding: 1px 10px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+$coach-bgc: #FFFEE1;
+
+.coach-color {
+  background-color: $coach-bgc;
+}
+
+.box {
+  display: flex;
+  margin-bottom: 24px;
+  width: 500px;
+}
+
+
+
+.stripe {
+  background-color: lightgrey;
+  width: 8px;
+}
+
+.text-margin {
+  margin: 12px;
+}
+
+a {
+  text-decoration: none;
+}
